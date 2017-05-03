@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-05 13:58:42
+ * @version $Id$
+ */
+body{
+	position: absolute;
+}
+#t1{
+	width: 400px;
+	height: 44px;
+	background-color: gray ;
+}
+#t1 td{
+	width: 25%;
+}
+.t1t1{
+	border-right: 1px dashed black;
+}
+
+.dash2{
+	border-right: 1px dashed black;
+}
+#t2{
+	width: 400px;
+	height: 44px;
+	background-color: red ;
+}
+#t2 td{
+	width: 50%;
+}
+#t3{
+	width: 400px;
+	height: 200px;
+	background-color: blue ;
+}
+#t3 .small{
+	width: 40%;
+}
+#t3 .big{
+	width: 60%;
+}
+

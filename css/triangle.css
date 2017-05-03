@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-24 10:53:48
+ * @version $Id$
+ */
+.box1{
+	position: relative;
+	width: 400px;
+	height: 200px;
+	background-color: gray;
+	border:2px solid;
+	z-index: -2;
+
+}
+.box2{
+	position: relative;
+	width: 200px;
+	height: 100px;
+	margin: 50px;
+	background-color: #66cd00;
+	 border:1px solid #458b00;
+	 border-radius:10px;
+}
+.box2 span:before{
+	content: "";
+	position: absolute;
+	display: block;
+	left: -19px;
+	top:10px;
+	width: 0px;
+	height: 0px;
+	border: 10px solid transparent;
+	border-right-color: #66cd00;
+}
+.box2 span:after{
+	content: "";
+	position: absolute;
+	display: block;
+	left: -20px;
+	top: 8px;
+	width: 0px;
+	height: 0px;
+	border: 11px solid transparent;
+	border-right-color: #458b00;
+	z-index: -1;
+}

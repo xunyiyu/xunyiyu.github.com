@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-13 15:17:33
+ * @version $Id$
+ */
+.ui-header{
+	display: flex;
+	flex-direction: column;
+	width: 660px;
+}
+.ui-header-title {
+	display: flex;
+	width: 660px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 5px solid #1a87c4;
+}
+.ui-header-title-route {
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient(#3c9bd0, #1a87c4);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.ui-header-title-time {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 0.9em;
+    background: linear-gradient(#fc7a13, #ff3c02 );
+    color: white;
+    margin: 0px 8px 5px;
+    border-radius: 5px;
+}
+.ui-header-message{
+	display: flex;
+	flex-wrap: wrap;
+	width: 658px;
+	height: 50px;
+	padding-top: 10px;
+    background: linear-gradient(#ffffff, #f3f3f4);
+    border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+
+}
+.ui-header-message-item{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	width: 660px;
+	height: 28px;
+}
+.text-content{
+	 margin-right: 20px;
+	 font-size:0.9em;
+}
+.text-2{
+	color: #d00000;
+	font-weight: bold;
+}
+.text-3{
+	font-weight: bold;
+}
+.ui-header-button{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 658px;
+	height: 30px;
+	background-color: #fffbde;
+	border-left: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+.ui-header-button-print{
+	margin-right: -60px;
+}
+.ui-header-button-detail{
+	margin-right: 10px;
+}
+.ui-header-button-print a{
+	color: #002cbd;
+}
+.ui-header-button-detail a{
+	color: #002cbd;
+}
+
+.ui-body{
+	display: flex;
+	width: 660px;
+	flex-direction: column;
+}
+.ui-body-title {
+    display: flex;
+    align-items: center;
+    width: 660px;
+    height: 15px;
+    margin-top: 5px;
+    background-color: #cedce8;
+    color: #607a90;
+}
+.ui-body-title-1 {
+    display: inline-block;
+    font-size: 0.9em;
+    text-align: center;
+     justify-content: center;
+    width: 389px;
+}
+.ui-body-title-2 {
+    display: inline-block;
+    font-size: 0.9em;
+    text-align: center;
+     justify-content: center;
+     width: 62px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.ui-body-title-3 {
+    display: inline-block;
+    font-size: 0.9em;
+    text-align: center;
+     justify-content: center;
+     width: 67px;
+    border-right: 1px solid white;
+}
+.ui-body-title-4 {
+    display: inline-block;
+    font-size: 0.9em;
+    text-align: center;
+     justify-content: center;
+     width: 80px;
+    border-right: 1px solid white;
+}
+.ui-body-title-5{
+    display: inline-block;
+    font-size: 0.9em;
+    text-align: center;
+     justify-content: center;
+     width: 62px;
+}
+.ui-body-content-1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 658px;
+    height: 40px;
+    background: #f2f2f2;
+    border: 1px solid #d7d7d7;
+    font-size: 0.9em;
+    border-top: 1px solid white;
+}
+.ui-body-content-2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 658px;
+    height: 40px;
+    background: #f2f2f2;
+    border: 1px solid #d7d7d7;
+    font-size: 0.9em;
+}
+.ui-body-content-left {
+    display: flex;
+    width: 389px;
+    font-size: 16px;
+
+}
+.fa {
+	margin-top: 2px;
+    margin-left: 70px;
+    color: blue;
+}
+.square {
+    margin-left: 4px;
+    margin-right: 4px;
+    align-self: center;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(#4AB9E6 0%, #1F93D9 50%, #0D7DD0 51%, #26A0D9 100%);
+    border: 1px solid white;
+}
+.ui-body-content-mid {
+	margin-left: -2px;
+    width: 62px;
+    text-align: center;
+}
+.ui-body-content-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 12px;
+    height: 40px;
+    flex: 1;
+}
+.ui-body-content-right a {
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: #002cbd;
+}
+.text1{
+	font-size: 0.9em;
+	text-align: center;
+	margin-left: 25px; 
+}
+.midSquare {
+    align-self: center;
+    margin-left: 28px;
+    margin-right: 4px;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border: 2px solid #1F94D0;
+}
+
+.ui-body-message {
+    display: flex;
+    width: 660px;
+    height: 40px;
+}
+.ui-body-message-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 389px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.ui-body-message-2 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    font-size: 0.9em;
+    border-right: 1px solid #d7d7d7;
+    border-left: 1px solid #d7d7d7;
+}
+.ui-body-message-3 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-right: 1px solid #d7d7d7;
+}
+.ui-body-message-4 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    font-size: 0.9em;
+    text-align: center;
+    border-right: 1px solid #d7d7d7;
+}
+.ui-body-message-5 {
+	display: flex;
+	width: 62px;
+    height: 40px;
+     font-size: 0.9em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ui-body-row-message-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99px;
+}
+.train {
+    border: 1px solid  #96c7d8;
+    margin-left: 10px;
+    width: 4px;
+    height: 50px;
+    background: linear-gradient( #96c7d8 40%, white 60%);
+    background-size: 100% 14px;
+    align-self: flex-start;
+}
+.ui-body-message-bus-1 {
+    display: flex;
+    align-items: center;
+}
+.ui-body-message-bus-1 i{
+    margin-left: 10px;
+   color: blue;
+}
+.text-special-1{
+	font-weight: bold;
+	color: blue;
+	margin-left: 5px;
+}
+.ui-body-message-bus-1 a{
+	margin-left: 10px;
+	color: #0069a3;
+}
+.ui-body-message-bus-2 {
+    display: flex;
+    align-items: center;
+}
+.ui-body-message-bus-2 i{
+    margin-left: 10px;
+   color: green;
+}
+.text-special-2{
+	font-weight: bold;
+	color: green;
+	margin-left: 5px;
+}
+.ui-body-message-bus-2 a{
+	margin-left: 10px;
+	color: #0069a3;
+}
