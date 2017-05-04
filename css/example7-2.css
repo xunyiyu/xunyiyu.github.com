@@ -83,16 +83,11 @@
 .row{
 	margin:0;
 }
-.ui-main{
-	padding-top: 15px;
-}
 
 .ui-main-first{
 	height: 260px;
-	background: transparent;
 	margin-top:15px;
 	display: flex;
-	flex-wrap: nowrap;
 }
 .ui-main-first-left{
 	height: 260px; 
@@ -108,33 +103,24 @@
 }
 .box-right{
 	height: 260px;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 .ui-main-second{
 	height: 35px;
-	background: transparent;
-	padding:0px;
 	display: flex;
-	flex-wrap: nowrap;
-	padding: 0;
-	color: black;
 }
 .ui-main-second-left{
-	height: 100%;
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
 	padding:0;
 	font-size: 18px;
 }
 .ui-main-second-right{
-	height: 100%;
 	margin-left: 15px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding:0;
-	font-size: 18px;
 }
 .ui-main-second-right span:last-child{
 	font-size: 12px;
@@ -142,8 +128,6 @@
 .ui-main-box{
 	height: 1260px;
 	padding:0;
-	display: flex;
-	flex-wrap: nowrap;
 }
 .left{
 	height: 1160px;
