@@ -9,8 +9,8 @@
 var map = new BMap.Map("myMap");
 var point = new BMap.Point(120.141375,30.257806);
 map.centerAndZoom(point, 15);
-//map.enableScrollWheelZoom();//启动鼠标滚轮缩放地图
-//map.enableKeyboard();//启动键盘操作地图
+map.enableScrollWheelZoom();//启动鼠标滚轮缩放地图
+map.enableKeyboard();//启动键盘操作地图
 //控件
 map.addControl(new BMap.NavigationControl());   
 map.addControl(new BMap.ScaleControl());    
@@ -30,7 +30,7 @@ local.search("宾馆");
 var transit=new BMap.TransitRoute(map, {
         renderOptions: {
             map: map,
-            panel: "result"
+            panel: "route"
           }
              });
 local.searchNearby("宾馆", "西湖",1000);
